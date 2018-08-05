@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Message } from '../../../node_modules/@angular/compiler/src/i18n/i18n_ast';
+import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 declare let alertify: any;
 
 @Injectable({

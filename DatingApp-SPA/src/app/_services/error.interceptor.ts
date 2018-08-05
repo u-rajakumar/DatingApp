@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpInterceptor, HttpRequest, HttpHandler, HttpEvent, HttpErrorResponse, HTTP_INTERCEPTORS} from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { typeofExpr } from '../../../node_modules/@angular/compiler/src/output/output_ast';
+import { typeofExpr } from '@angular/compiler/src/output/output_ast';
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {
